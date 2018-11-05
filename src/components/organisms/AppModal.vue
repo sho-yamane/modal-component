@@ -38,8 +38,8 @@ export default {
   computed: {
     styleObject() {
       return {
-        height: this.modalContentHeight - 150 + 'px',
-        bottom: this.maskShow ? '0px' : '-150px'
+        height: this.modalContentHeight - 100 + 'px',
+        bottom: this.maskShow ? '0px' : '-100px'
       }
     }
   },
