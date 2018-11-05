@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <index-page></index-page>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import IndexPage from "./components/pages/IndexPage"
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    IndexPage
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
-  margin-top: 60px;
+  max-width: 500px;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px rgba(123,138,147,.25);
 }
 </style>
