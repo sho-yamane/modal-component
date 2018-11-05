@@ -57,7 +57,7 @@ export default {
   box-sizing: border-box;
   overflow-y: scroll;
   overflow-scrolling: touch;
-  -webkit-overflow-scrolling: touch
+  -webkit-overflow-scrolling: touch;
   box-shadow: 0px -4px 16px #ddd;
   &_Close {
     position: absolute;
