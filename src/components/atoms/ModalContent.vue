@@ -50,7 +50,8 @@ export default {
 .ModalContent {
   background: #fff;
   padding: 64px 16px 24px;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   box-sizing: border-box;

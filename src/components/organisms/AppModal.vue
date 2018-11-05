@@ -65,7 +65,8 @@ export default {
 <style scoped lang="scss">
 .AppModal {
   position: fixed;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 100vh;
   top: 0;
   transform: translateY(100%);
