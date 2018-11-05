@@ -39,7 +39,7 @@ export default {
     styleObject() {
       return {
         height: this.modalContentHeight - 150 + 'px',
-        bottom: this.maskShow ? '0px' : '-300px'
+        bottom: this.maskShow ? '0px' : '-150px'
       }
     }
   },
@@ -71,6 +71,7 @@ export default {
   top: 0;
   transform: translateY(100%);
   transition: 0.12s ease-out;
+  -webkit-overflow-scrolling: touch
   &._active {
     transform: translateY(0%);
   }
